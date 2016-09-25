@@ -1,11 +1,24 @@
 # Getting and Cleaning Data
 
-## Course Project
+# Overview
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
-You should create one R script called run_analysis.R that does the following.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive activity names.
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Here are the data for the project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+## How to Use this Script
+1. Clone this repository to your machine.
+2. Set your R session's working directory to the cloned directory (e.g., by using setwd).
+3. Execute the run_analysis.R script:
+
+4. source('run_analysis.R')
+5. The script will download the data from the project site listed above.
+
+When complete, a file named tidy_data.txt will be created in the working directory.
+
+# Output Data
+Details about the output data can be found in the accompanying Code Book.
